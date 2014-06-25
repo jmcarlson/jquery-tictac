@@ -17,8 +17,8 @@ $('.box').on("click", function() {
 	var boxValue = $(this).text();
 	(boxValue !== 'X') ? $(this).text('X') : $(this).text('O');
 
-	var infoData = 
-	$(this).attr('id') + " " +
+	var infoData = "Id: " +
+	$(this).attr('id') + ", Text: " +
 	$(this).text();
 
 	$('#infobox').text(infoData);

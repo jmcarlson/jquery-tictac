@@ -1,12 +1,13 @@
 #infobox {
 	width: 340px; 
-	height: 80px;
+	height: 60px;
 	border: solid 1px LightGray;
-	margin-left: 12px;
-	margin-top: 2px;
+	margin-left: 16px;
+	margin-top: 5px;
 	text-align: center;
 	background-color: Gray;
-	padding-top: 15px;
+	padding-top: 30px;
+	border-radius: 4px;
 }
 
 .container > div {
@@ -25,4 +26,5 @@
 	cursor: default;
 	padding-top: 15px;
 	border-radius: 4px;
+	border: solid 1px LightGray;
 }
