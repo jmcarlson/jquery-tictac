@@ -13,6 +13,13 @@
 
 
 $('.box').on("click", function() {
+
 	var boxValue = $(this).text();
 	(boxValue !== 'X') ? $(this).text('X') : $(this).text('O');
+
+	var infoData = 
+	$(this).attr('id') + " " +
+	$(this).text();
+
+	$('#infobox').text(infoData);
 })

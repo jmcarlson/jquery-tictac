@@ -1,3 +1,14 @@
+#infobox {
+	width: 340px; 
+	height: 80px;
+	border: solid 1px LightGray;
+	margin-left: 12px;
+	margin-top: 2px;
+	text-align: center;
+	background-color: Gray;
+	padding-top: 15px;
+}
+
 .container > div {
 	display: inline-block;
 }
