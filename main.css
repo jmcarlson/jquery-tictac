@@ -1,0 +1,15 @@
+.container > div {
+	display: inline-block;
+}
+
+.box {
+	width: 100px;
+	height: 50px;
+	background-color: black;
+	margin: 10px;
+	color: LightGray;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 28px;
+	cursor: default;
+}
