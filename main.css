@@ -5,11 +5,13 @@
 .box {
 	width: 100px;
 	height: 50px;
-	background-color: black;
+	background-color: Gray;
 	margin: 10px;
-	color: LightGray;
+	color: white;
 	text-align: center;
 	vertical-align: middle;
-	font-size: 28px;
+	font-size: 30px;
 	cursor: default;
+	padding-top: 15px;
+	border-radius: 4px;
 }
